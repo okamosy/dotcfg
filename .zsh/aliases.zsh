@@ -1,3 +1,4 @@
+alias l='ls -lah'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 alias intranet_vm='cd ~/Repositories/infrastructure/machines/intranet_v2'
