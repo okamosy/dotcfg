@@ -16,6 +16,11 @@ alias websocket_up='websocket_vm && vagrant up'
 alias websocket_down='websocket_vm && vagrant halt'
 alias websocket_reload='websocket_vm && vagrant reload'
 
+alias specex_vm='cd ~/Repositories/infrastructure/machines/specialist_extranet'
+alias specex_up='redis_vm && vagrant up'
+alias specex_down='redis_vm && vagrant halt'
+alias specex_reload='redis_vm && vagrant reload'
+
 alias i-code='cd ~/Repositories/intranet_v2'
 alias i-up='intranet_up && redis_up && websocket_up && i-code && make install-dev'
 alias i-down='intranet_down && redis_down && websocket_down'
