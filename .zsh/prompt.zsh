@@ -19,8 +19,10 @@ function git_prompt_info {
   fi
 
   if [[ -n $ref ]]; then
-    echo "%{$fg_bold[green]%}/${ref#refs/heads/}%{$reset_color%}$gitstatus"
+    echo "%{$fg_bold[green]%}${ref#refs/heads/}%{$reset_color%}$gitstatus"
   fi
 }
 
-PROMPT='%~%<< $(git_prompt_info)${PR_BOLD_WHITE}>%{${reset_color}%} '
+PROMPT='%{$fg[magenta]%}%n%{$reset_color%} at %{$fg[cyan]%}%m%{$reset_color%} in %{$fg[green]%}${PWD/#$HOME/~}%{$reset_color%}
+$(git_prompt_info)${PR_BOLD_WHITE}>%{${reset_color}%} '
+RPROMPT='$(phpbrew_current_php_version)'
