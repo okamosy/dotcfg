@@ -6,6 +6,7 @@ source ~/.zsh/functions.zsh
 source ~/.zsh/history.zsh
 source ~/.zsh/prompt.zsh
 source ~/.zsh/setopts.zsh
+source ~/.zsh/zsh_hooks.zsh
 
 [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
 
