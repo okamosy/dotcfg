@@ -39,8 +39,21 @@ app/config/parameters.yml
 composer.phar
 #composer.lock
 
+
+# Symbolic links
+common/src/phplib/v1_deprecated/EventLog
+common/src/phplib/v1_deprecated/Invoice
+common/src/phplib/v1_deprecated/Mail
+intranet/resources/fonts/fonts
+intranet/src/css/v2/foundation.min.css
 intranet/html/js
 intranet/html/css
 intranet/html/img
 intranet/html/fonts
-
+website/src/static/clientdist/library/javascript/lib/jquery/plugins/tree-view.js
+website/src/html/js
+website/src/html/fonts
+website/src/html/img
+website/src/html/css/css
+website/src/html/static
+website/src/html/flash
