@@ -2,7 +2,7 @@
 
 ## Prerequisites
 1. Install zsh and make it the default shell
-  *. `chsh -s $(which zsh)`
+  * `chsh -s $(which zsh)`
 1. Install the additional following packages:
   * git
   * php-cli (needed for phpbrew)
