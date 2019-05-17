@@ -20,3 +20,6 @@ export CDPATH=.:~/Repositories
 export WORKSPACE_DIR='~/Repositories'
 export DATABASE_IP='10.10.101.203'
 
+export AWS_DEFAULT_PROFILE=prod
+export AWS_REGION=eu-west-1
+
